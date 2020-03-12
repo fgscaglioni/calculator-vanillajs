@@ -114,6 +114,7 @@ function formatDisplay(operation) {
 
 for (let button of buttons) {
     button.addEventListener('click', function (event) {
+        window.navigator.vibrate(10)
         readInput(event.target.dataset.value)
         updateDisplays()
     })

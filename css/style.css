@@ -152,13 +152,13 @@ td {
   display: grid;
   align-items: center;
   transform: scale(1);
-  transition: transform 200ms;
+  transition: transform 1ms;
 }
 
 .button:active {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0s;
-  box-shadow: white 0px 0px 1px 1px;
+  box-shadow: white 0px 0px 2px 0px;
 }
 
 .button-smaller {
